@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoSlab-Regular;
+    src: url(./fonts/RobotoSlab-Regular.ttf);
+}
+
+/* Home Section */
+
+    /* Header Navigation */
+
+div.homeSection{
+    background: url(/Dmitry/backgrounds/header.png) no-repeat;
+    height: 792px;
+}
+div.homeSection div.logo{
+    font-family: Montserrat-Bold;
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 37px;
+    left: 13vw;
+}
+div.homeSection div.nav{
+    display: flex;
+    position: absolute;
+    left: 51vw;
+    top: 50px;
+    width: 34.69vw;
+    justify-content: space-between;
+}
+div.homeSection div.nav a{
+    font-size: 18.6px;
+    color: white;
+    font-family: Montserrat-Regular;
+    text-decoration: none;
+}
+
+    /* Captions */
+
+div.homeSection div.captions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 320px;
+    width: 100vw;
+}
+div.homeSection div.captions{
+    color: white;
+}
+div.homeSection div.captions div:first-child{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: Montserrat-Regular;
+}
+div.homeSection div.captions div:first-child + div{
+    text-transform: capitalize;
+    font-size: 19px;
+    font-family: RobotoSlab-Regular;
+    margin-top: 13px;
+}
+div.homeSection div.captions button{
+    color: white;
+    text-transform: uppercase;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    font-size: 17px;
+    height: 50px;
+    width: 180px;
+    border: white 2px solid;
+    background-color: #00000000;
+    border-radius: 2px;
+    margin-top: 52px;
+}
+div.homeSection div.captions button:hover{
+    color: red;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    font-size: 17px;
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    border: white 2px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 52px;
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: monsterrat-bold;
+    src: url(./Montserrat-Bold.ttf);
+}
+
+.monsterrat-bold {
+    font-family: monsterrat-bold;
+}
+
+@font-face {
+    font-family: montserrat-regular;
+    src: url(./Montserrat-Regular.ttf);
+}
+
+.montserrat-regular {
+    font-family: montserrat-regular;
+}
+
+@font-face {
+    font-family: robotoslab-regular;
+    src: url(./RobotoSlab-Regular.ttf);
+}
+
+.robotoslab-regular {
+    font-family: robotoslab-regular;
+}
