@@ -214,6 +214,7 @@ div.aboutUs div.content div.leftContent{
 div.aboutUs div.content div.rightContent{
     margin: 0 0 0 15px;
 }
+
     /* Team Members */
 
 div.aboutUs div.teamMembers{
@@ -248,18 +249,20 @@ div.aboutUs div.teamMembers div.member4 div:last-of-type{
     font-size: 16px;
 }
 div.aboutUs div.teamMembers div.member1 img:hover{
-    content: url(./men/man1hover.png);
+    content: url(./men/man1hover1.png);
 }
 div.aboutUs div.teamMembers div.member2 img:hover{
-    content: url(./men/man2hover.png);
+    content: url(./men/man2hover1.png);
 }
 div.aboutUs div.teamMembers div.member3 img:hover{
-    content: url(./men/man3hover.png);
+    content: url(./men/man3hover1.png);
 }
 div.aboutUs div.teamMembers div.member4 img:hover{
-    content: url(./men/man4hover.png);
+    content: url(./men/man4hover1.png);
 }
 div.aboutUs div.teamMembers div.member1,
+div.aboutUs div.teamMembers div.member2,
+div.aboutUs div.teamMembers div.member3,
 div.aboutUs div.teamMembers div.member4{
     position: relative;
 }
@@ -296,4 +299,45 @@ div.aboutUs div.teamMembers div.member4 div.next{
 }
 div.aboutUs div.teamMembers div.member4 div.next:hover{
     background: #c0301c;
+}
+div.aboutUs div.teamMembers div.member1 div.links a.facebook:hover,
+div.aboutUs div.teamMembers div.member2 div.links a.facebook:hover,
+div.aboutUs div.teamMembers div.member3 div.links a.facebook:hover,
+div.aboutUs div.teamMembers div.member4 div.links a.facebook:hover{
+    content: url(./men/facebookHover.png);
+}
+div.aboutUs div.teamMembers div.member1 div.links a.twitter:hover,
+div.aboutUs div.teamMembers div.member2 div.links a.twitter:hover,
+div.aboutUs div.teamMembers div.member3 div.links a.twitter:hover,
+div.aboutUs div.teamMembers div.member4 div.links a.twitter:hover{
+    content: url(./men/twitterHover.png);
+}
+div.aboutUs div.teamMembers div.member1 div.links a.plusGoogle:hover,
+div.aboutUs div.teamMembers div.member2 div.links a.plusGoogle:hover,
+div.aboutUs div.teamMembers div.member3 div.links a.plusGoogle:hover,
+div.aboutUs div.teamMembers div.member4 div.links a.plusGoogle:hover{
+    content: url(./men/plusGoogleHover.png);
+}
+div.aboutUs div.teamMembers div.member1 div.links a.linkedIn:hover,
+div.aboutUs div.teamMembers div.member2 div.links a.linkedIn:hover,
+div.aboutUs div.teamMembers div.member3 div.links a.linkedIn:hover,
+div.aboutUs div.teamMembers div.member4 div.links a.linkedIn:hover{
+    content: url(./men/linkedInHover.png);
+}
+div.aboutUs div.teamMembers div.member1 div.links,
+div.aboutUs div.teamMembers div.member2 div.links,
+div.aboutUs div.teamMembers div.member3 div.links,
+div.aboutUs div.teamMembers div.member4 div.links{
+    display: flex;
+    position: absolute;
+    bottom: 102px;
+    left: 29%;
+}
+div.aboutUs div.teamMembers div.member1 div.links a,
+div.aboutUs div.teamMembers div.member2 div.links a,
+div.aboutUs div.teamMembers div.member3 div.links a,
+div.aboutUs div.teamMembers div.member4 div.links a{
+    height: 28px;
+    width: 28px;
+    display: block;
 }
