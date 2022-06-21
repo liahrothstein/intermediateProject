@@ -16,12 +16,12 @@ body{
 
 /* Home Section */
 
-    /* Header Navigation */
-
 div.homeSection{
     background: url(/Dmitry/backgrounds/header.png) no-repeat;
     height: 792px;
 }
+    /* Header Navigation */
+
 div.homeSection div.logo{
     font-family: Montserrat-Bold;
     color: white;
@@ -82,7 +82,7 @@ div.homeSection div.captions button{
     margin-top: 52px;
 }
 div.homeSection div.captions button:hover{
-    color: red;
+    color: #c0301c;
     font-family: Montserrat-Regular;
     font-weight: bold;
     font-size: 17px;
@@ -97,12 +97,12 @@ div.homeSection div.captions button:hover{
 
 /* Services */
 
-    /* Section Title and Subtitle */
-
 div.services{
     background-color: white;
     height: 579px;
 }
+    /* Section Title and Subtitle */
+
 div.services div.titleAndSubtitle{
     display: flex;
     flex-direction: column;
@@ -169,13 +169,13 @@ div.services div.singleServices div.service:last-of-type img:hover{
 
 /* About Us */
 
-    /* Section Title And Subtitle */
-
 div.aboutUs{
     height: 753px;
     background-color: #f8f8f8;
     color: #555555;
 }
+    /* Section Title And Subtitle */
+
 div.aboutUs div.titleAndSubtitle{
     display: flex;
     flex-direction: column;
@@ -214,6 +214,7 @@ div.aboutUs div.content div.leftContent{
 div.aboutUs div.content div.rightContent{
     margin: 0 0 0 15px;
 }
+
     /* Team Members */
 
 div.aboutUs div.teamMembers{
@@ -260,6 +261,8 @@ div.aboutUs div.teamMembers div.member4 img:hover{
     content: url(./men/man4hover.png);
 }
 div.aboutUs div.teamMembers div.member1,
+div.aboutUs div.teamMembers div.member2,
+div.aboutUs div.teamMembers div.member3,
 div.aboutUs div.teamMembers div.member4{
     position: relative;
 }
@@ -296,4 +299,171 @@ div.aboutUs div.teamMembers div.member4 div.next{
 }
 div.aboutUs div.teamMembers div.member4 div.next:hover{
     background: #c0301c;
+}
+div.aboutUs div.teamMembers div.member1 div.links a.facebook:hover,
+div.aboutUs div.teamMembers div.member2 div.links a.facebook:hover,
+div.aboutUs div.teamMembers div.member3 div.links a.facebook:hover,
+div.aboutUs div.teamMembers div.member4 div.links a.facebook:hover{
+    content: url(./men/facebookHover.png);
+}
+div.aboutUs div.teamMembers div.member1 div.links a.twitter:hover,
+div.aboutUs div.teamMembers div.member2 div.links a.twitter:hover,
+div.aboutUs div.teamMembers div.member3 div.links a.twitter:hover,
+div.aboutUs div.teamMembers div.member4 div.links a.twitter:hover{
+    content: url(./men/twitterHover.png);
+}
+div.aboutUs div.teamMembers div.member1 div.links a.plusGoogle:hover,
+div.aboutUs div.teamMembers div.member2 div.links a.plusGoogle:hover,
+div.aboutUs div.teamMembers div.member3 div.links a.plusGoogle:hover,
+div.aboutUs div.teamMembers div.member4 div.links a.plusGoogle:hover{
+    content: url(./men/plusGoogleHover.png);
+}
+div.aboutUs div.teamMembers div.member1 div.links a.linkedIn:hover,
+div.aboutUs div.teamMembers div.member2 div.links a.linkedIn:hover,
+div.aboutUs div.teamMembers div.member3 div.links a.linkedIn:hover,
+div.aboutUs div.teamMembers div.member4 div.links a.linkedIn:hover{
+    content: url(./men/linkedInHover.png);
+}
+div.aboutUs div.teamMembers div.member1 div.links,
+div.aboutUs div.teamMembers div.member2 div.links,
+div.aboutUs div.teamMembers div.member3 div.links,
+div.aboutUs div.teamMembers div.member4 div.links{
+    display: flex;
+    position: absolute;
+    bottom: 102px;
+    left: 29%;
+}
+div.aboutUs div.teamMembers div.member1 div.links a,
+div.aboutUs div.teamMembers div.member2 div.links a,
+div.aboutUs div.teamMembers div.member3 div.links a,
+div.aboutUs div.teamMembers div.member4 div.links a{
+    height: 28px;
+    width: 28px;
+    display: block;
+}
+
+/* Works */
+
+div.works{
+    height: 1381px;
+    background-color: white;
+    color: #555555;
+    position: relative;
+}
+
+    /* Section Title And Subtitle */
+
+div.works div.titleAndSubtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.works div.titleAndSubtitle div.title{
+    margin: 85px 0 0 0;
+    font-family: Montserrat-Regular;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+div.works div.titleAndSubtitle div.shape{
+    background-color: #555555;
+    height: 2px;
+    width: 50px;
+    margin-top: 30px;
+}
+div.works div.subtitle form{
+    margin: 0 37.19vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: RobotoSlab-Regular;
+    font-size: 17px;
+    margin-top: 30px;
+}
+div.works div.subtitle form input{
+    display: none;
+}
+div.works div.subtitle form:not(:checked) > label{
+    cursor: pointer;
+}
+div.works div.subtitle form > input:checked + label,
+div.works div.subtitle form > input[name="All"]:checked ~ label{
+    color: #c0301c;
+}
+
+    /* Work Level */
+
+div.works div.workLevel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1.88vw;
+    grid-row-gap: 30px;
+    justify-items: center;
+    margin: 71px 13.6vw 0;
+}
+div.works div.workLevel > img{
+    position: relative;
+}
+div.works div.workLevel img:first-child:hover{
+    content: url(./gallery/workLevelHover1.png);
+}
+div.works div.workLevel img:first-child + img:hover{
+    content: url(./gallery/workLevelHover2.png);
+}
+div.works div.workLevel img:first-child + img + img:hover{
+    content: url(./gallery/workLevelHover3.png);
+}
+div.works div.workLevel img:first-child + img + img + img:hover{
+    content: url(./gallery/workLevelHover4.png);
+}
+div.works div.workLevel img:first-child + img + img + img + img:hover{
+    content: url(./gallery/workLevelHover5.png);
+}
+div.works div.workLevel img:first-child + img + img + img + img + img:hover{
+    content: url(./gallery/workLevelHover6.png);
+}
+div.works div.workLevel img:first-child + img + img + img + img + img + img:hover{
+    content: url(./gallery/workLevelHover7.png);
+}
+div.works div.workLevel img:first-child + img + img + img + img + img + img + img:hover{
+    content: url(./gallery/workLevelHover8.png);
+}
+div.works div.workLevel img:last-child:hover{
+    content: url(./gallery/workLevelHover9.png);
+}
+div.works div.viewButton div.row1{
+    position: absolute;
+    top: 442px;
+    left: 21.8vw;
+    display: flex;
+    width: 55.3vw;
+    justify-content: space-between;
+}
+div.works div.viewButton div.row2{
+    position: absolute;
+    top: 792px;
+    left: 21.8vw;
+    display: flex;
+    width: 55.3vw;
+    justify-content: space-between;
+}
+div.works div.viewButton div.row3{
+    position: absolute;
+    top: 1142px;
+    left: 21.8vw;
+    display: flex;
+    width: 55.3vw;
+    justify-content: space-between;
+}
+div.works div.viewButton button{
+    width: 100px;
+    height: 38px;
+    background: #00000000;
+    color: #00000000;
+    border: none;
+    cursor: pointer;
+}
+div.works div.viewButton button:hover{
+    border: none;
+    border-radius: 2px;
+    background: url(./gallery/buttonHover.png);
 }
