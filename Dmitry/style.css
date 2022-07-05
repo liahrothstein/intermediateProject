@@ -18,12 +18,8 @@ body{
 
 div.homeSection{
     background: url(./backgrounds/header.png) no-repeat;
+    background-size: cover;
     height: 792px;
-}
-@media screen and (min-width: 1601px){
-    div.homeSection{
-        background: url(./backgrounds/header1.png) no-repeat
-    }
 }
 
     /* Header Navigation */
