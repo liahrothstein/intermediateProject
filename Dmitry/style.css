@@ -109,10 +109,9 @@ div.services div.titleAndSubtitle{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: 868px;
     width: 100%;
     color: #555555;
+    margin-top: 50px;
 }
 div.services div.titleAndSubtitle div.title{
     font-family: Montserrat-Regular;
@@ -136,9 +135,7 @@ div.services div.titleAndSubtitle div.subtitle{
 
 div.services div.singleServices{
     display: flex;
-    position: absolute;
-    top: 1030px;
-    margin: 0 14.38vw;
+    padding: 125px 14.38vw 0;
 }
 div.services div.singleServices div.service{
     display: flex;
@@ -207,7 +204,7 @@ div.aboutUs div.titleAndSubtitle div.subtitle{
 div.aboutUs div.content{
     font-family: RobotoSlab-Regular;
     display: flex;
-    margin: 45px 14.38vw 0;
+    padding: 50px 14.38vw 0;
     font-size: 16px;
 }
 div.aboutUs div.content div.leftContent{
@@ -501,4 +498,484 @@ div.works div.viewButton button:hover{
     border: none;
     border-radius: 2px;
     background: url(./gallery/buttonHover.png);
+}
+div.mediumSection{
+    background: url(./backgrounds/center.png) no-repeat;
+    height: 368px;
+    background-size: cover;
+}
+
+div.mediumSection div.mediumText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* top: 3681px; */
+    height: 368px;
+    width: 100%;
+    color: white;
+    font-family: RobotoSlab-Regular;
+    font-size: 1.5rem;
+}
+
+/*button*/
+
+div.mediumSection button {
+    color: white;
+    text-transform: uppercase;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    font-size: 17px;
+    height: 50px;
+    width: 180px;
+    border: white 2px solid;
+    background-color: #00000000;
+    border-radius: 2px;
+    margin-top: 52px;
+}
+
+div.mediumSection button:hover{
+    color: #c0301c;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    font-size: 17px;
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    border: white 2px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 52px;
+}
+
+
+
+
+/* section 5 blog */
+
+/*div.blogRecent {
+    height: 3950px; 
+}*/
+
+div.titleBlog {
+    height: 257px;
+}
+
+div.section5 div.titleAndSubtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* top: 868px; */
+    height: 257px;
+    width: 100%;
+    color: #555555;
+}
+
+div.title {
+    font-family: Montserrat-Regular;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div.subtitle {
+    font-family: RobotoSlab-Regular;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+div.shape {
+    background-color: #555555;
+    height: 2px;
+    width: 50px;
+    margin-top: 30px;
+}
+
+/* section Blog */
+
+.recentBlog div.square {
+    display: inline-flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-area: square;
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    width: 73px;
+    height: 73px;
+    border: 3px solid #555555;
+    color: #777777;
+}
+
+.number {
+    font-size: 25px;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 47px;
+    margin-top: 55px;
+    color: #555555;
+}
+
+img.recentPhoto {
+    max-width: 460px;
+    min-width: 260px;
+    margin-bottom: 30px;
+}
+
+.recentBlog {
+    display: inline-grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: repeat(4, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    max-width: 640px;
+    margin-left: 3vw;
+}
+
+.october {
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+.postBy {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    position: relative;
+}
+
+.postBy div {
+    position:absolute;
+    top: -28px;
+    font-family: RobotoSlab-Regular;
+    font-style: italic;
+}
+
+.recentBlog .postText {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    font-family: RobotoSlab-Regular;
+}
+
+.postName {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-family: Montserrat-Regular;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.red {
+    color: #c0301c;
+}
+
+.readmore {
+    font-family: RobotoSlab-Bold;
+    color: #c0301c;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Section 6 Slider */
+
+.sliderWrapper {
+    min-height: 475px;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    margin-top: 100px;
+}
+
+.sectionSlider {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+div.clientsLogo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.clientsLogo img {
+    margin: 10px;
+}
+
+.slider {
+    position: relative;
+    max-width: 680px;
+    margin: 20px auto;
+}
+
+.slider input[name="switch"] {
+    display: none;
+}
+
+.switch {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: #dddddd;
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+    background-color: #c0301c;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+    background-color: #c0301c;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+    background-color: #c0301c;
+}
+
+.slider-inner {
+    overflow: hidden;
+
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.slides img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+#btn1:checked~slider-inner slides {
+    transform: translate(0);
+}
+
+#btn2:checked~.slider-inner .slides {
+    transform: translateX(-100%);
+}
+
+#btn3:checked~.slider-inner .slides {
+    transform: translateX(-200%);
+}
+
+/* Section 7 Slider */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.location, .mobile, .email {
+    font-family: Montserrat-Regular;
+}
+
+.datacontent, .comment {
+    font-family: RobotoSlab-Regular;
+}
+
+.location::before {
+    font-family: FontAwesome;
+    content: '\f041';
+    font-size: 25px;
+    margin-right: 16px;
+}
+.mobile::before {
+    font-family: FontAwesome;
+    content: '\f10b';
+    font-size: 25px;
+    margin-right: 16px;
+}
+
+.email::before {
+    font-family: FontAwesome;
+    content: '\f003';
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+.datacontent {
+    margin-left: 30px;
+}
+
+/*form*/
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.data {
+    display: flex;
+    white-space: pre-line;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 310px;
+    margin-right: 5%;
+    margin-bottom: 30px;
+
+    
+}
+
+.form {
+    max-width: 730px;
+    column-gap: 29px;
+    flex-grow: 1;
+}
+
+
+.submit {
+    height: 46px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.input {
+    box-sizing: border-box;
+    max-width: 350px;
+    flex-grow: 1;
+    height: 46px;
+    padding-left: 25px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.input:focus {
+    box-sizing: border-box;
+    border: 2px solid red;
+    outline: none;
+}
+
+.message {
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 730px;
+    height: 103px;
+    padding-left: 25px;
+    border-radius: 3px;
+    border: 2px solid black;
+    resize: none;
+    margin-bottom: 23px;
+}
+
+.message:focus {
+    box-sizing: border-box;
+    border: 2px solid red;
+    outline: none;
+}
+
+.comment {
+    display: inline;
+}
+  
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 23px;
+}
+
+.textarea {
+    display: flex;
+}
+
+.submits {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+/* Section 8 Footer */
+
+.footer {
+    background-color: #c0301c;
+    min-height: 310px;
+}
+
+div.footerTwitter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    min-height: 310px;
+    width: 100%;
+    color: #ffffff;
+}
+
+div.twitterLogo {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    font-size: 22px;
+    
+   
+}
+
+div.twitterCircle {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+div.twitterSubtitle {
+    font-family: RobotoSlab-Regular;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+div.twitterShape {
+    background-color: #ffffff;
+    height: 2px;
+    width: 50px;
+    margin-top: 30px;
+}
+
+.twitterCircle i {
+    line-height: 50px;
+
+}
+div.section5{
+    height: 1080px;
+}
+div.titleBlog div.titleAndSubtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #555555;
+    margin-top: 50px;
 }
