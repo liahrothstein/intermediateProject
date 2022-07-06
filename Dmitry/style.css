@@ -101,7 +101,6 @@ div.homeSection div.captions button:hover{
 
 div.services{
     background-color: white;
-    height: 579px;
 }
     /* Section Title and Subtitle */
 
@@ -136,6 +135,7 @@ div.services div.titleAndSubtitle div.subtitle{
 div.services div.singleServices{
     display: flex;
     padding: 125px 14.38vw 0;
+    margin-bottom: 122px;
 }
 div.services div.singleServices div.service{
     display: flex;
@@ -377,7 +377,6 @@ div.aboutUs div.teamMembers div.member4 div.links a{
 /* Works */
 
 div.works{
-    height: 1381px;
     background-color: white;
     color: #555555;
     position: relative;
@@ -426,11 +425,11 @@ div.works div.subtitle form > input[name="All"]:checked ~ label{
 
 div.works div.workLevel{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     grid-column-gap: 1.88vw;
     grid-row-gap: 30px;
     justify-items: center;
-    margin: 71px 13.6vw 0;
+    margin: 71px 13.6vw 93px;
 }
 div.works div.workLevel > img{
     position: relative;
